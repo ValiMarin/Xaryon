@@ -14,6 +14,24 @@ A first-person shooter developed in Unity.
 
 Keep the executable and its accompanying files together.
 
+## Controls
+
+| Input | Action |
+|---|---|
+| W / A / S / D | Move |
+| Mouse | Look around |
+| Left Shift | Sprint |
+| Space | Jump |
+| Left Mouse Button | Attack / Shoot |
+| Right Mouse Button | Block |
+| Mouse Wheel | Switch weapons |
+| 1 | Equip melee weapon |
+| 2 | Equip pistol |
+| E | Use melee skill / Change firing mode, depending on the equipped weapon |
+| R | Reload |
+| Q | Use player ability |
+| F | Interact |
+
 ## About
 
 Xaryon is a personal game development project focused on first-person combat setting.

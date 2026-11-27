@@ -4,6 +4,10 @@ A first-person shooter developed in Unity.
 
 ![Xaryon gameplay](Docs/Images/gameplay.png)
 
+## Gameplay Video
+
+[Download the gameplay video — MP4, 130 MB](https://github.com/ValiMarin/Xaryon/releases/download/v0.1.0/Xaryon-Gameplay.mp4)
+
 ## Playable Build
 
 [Download the Windows prototype](https://github.com/ValiMarin/Xaryon/releases/tag/v0.1.0)

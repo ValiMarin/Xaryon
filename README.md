@@ -34,8 +34,6 @@ Keep the executable and its accompanying files together.
 
 ## About
 
-## About
-
 Xaryon is a personal first-person shooter project developed in Unity. All gameplay code was written by me.
 
 This repository includes playable builds and selected source code showcasing the game's systems.

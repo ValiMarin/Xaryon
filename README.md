@@ -34,9 +34,29 @@ Keep the executable and its accompanying files together.
 
 ## About
 
-Xaryon is a personal game development project focused on first-person combat setting.
+## About
 
-This repository presents the project and provides access to its playable builds.
+Xaryon is a personal first-person shooter project developed in Unity. All gameplay code was written by me.
+
+This repository includes playable builds and selected source code showcasing the game's systems.
+
+## Source Code
+
+### Turret System
+
+A component-based enemy system with shared behaviour and specialized Classic, Sniper, Bomber, and Penetrator variants.
+
+The implementation demonstrates:
+
+- Encapsulation of runtime state and component responsibilities.
+- Inheritance and polymorphism for specialized shooting, projectile, and death behaviour.
+- Interfaces for damage handling and highlighting.
+- Event-based communication between detection, health, animation, and controller components.
+- ScriptableObjects for turret, projectile, and animation configuration.
+
+[Explore the turret system and its architecture](Source/TurretSystem/README.md)
+
+The source selection is provided for code review and requires the full Unity project and its assets to run. To play the game, download the build linked above.
 
 ## Built With
 

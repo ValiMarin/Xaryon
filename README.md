@@ -1,6 +1,7 @@
 # Xaryon
 
-A first-person shooter developed in Unity. ![Xaryon gameplay](Docs/Images/gameplay.png)
+A first-person shooter developed in Unity.
+![Xaryon gameplay](Docs/Images/gameplay.png)
 
 ## Playable Build
 

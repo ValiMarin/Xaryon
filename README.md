@@ -77,11 +77,16 @@ World pickups connected to on-screen collection notifications.
 
 These selections are provided for code review. They require the full Unity project and its assets to run. To play the game, download the build linked above.
 
-## Built With
+## Tools & Technologies
 
-- Unity
-- C#
-- Universal Render Pipeline (URP)
+| Area | Tools |
+|---|---|
+| Game Engine | Unity, Universal Render Pipeline (URP) |
+| Programming | C#, Visual Studio |
+| 3D Modeling & Animation | Autodesk Maya |
+| Texture Editing | Adobe Photoshop |
+| Audio Editing | Audacity |
+| Version Control & Hosting | Git, GitHub |
 
 ## Project Status
 

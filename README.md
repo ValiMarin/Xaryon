@@ -1,6 +1,6 @@
 # Xaryon
 
-A first-person shooter developed in Unity.
+A first-person shooter developed in Unity. ![Xaryon gameplay](Docs/Images/gameplay.png)
 
 ## Playable Build
 
@@ -48,6 +48,17 @@ Xaryon is a solo-developed project. I created the following from scratch:
 - Original sound effects.
 
 The game's audio combines my own sound effects with selected third-party sounds sourced online.
+
+## Screenshots
+
+### Arena Interior
+![Arena interior and turret encounters](Docs/Images/arena-interior.png)
+
+### Melee Combat
+![Sword combat](Docs/Images/melee-combat.png)
+
+### Loot and Pickup UI
+![Loot collection and grouped pickup notifications](Docs/Images/loot-pickup-ui.png)
 
 ## Source Code
 

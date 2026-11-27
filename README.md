@@ -38,6 +38,17 @@ Xaryon is a personal first-person shooter project developed in Unity. All gamepl
 
 This repository includes playable builds and selected source code showcasing the game's systems.
 
+## My Contributions
+
+Xaryon is a solo-developed project. I created the following from scratch:
+
+- All gameplay code and systems.
+- All 3D models, rigging, and animations.
+- All textures.
+- Original sound effects.
+
+The game's audio combines my own sound effects with selected third-party sounds sourced online.
+
 ## Source Code
 
 Selected gameplay systems from Xaryon, with documentation explaining their behaviour, component responsibilities, and design decisions.

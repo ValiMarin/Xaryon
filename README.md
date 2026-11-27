@@ -40,21 +40,42 @@ This repository includes playable builds and selected source code showcasing the
 
 ## Source Code
 
+Selected gameplay systems from Xaryon, with documentation explaining their behaviour, component responsibilities, and design decisions.
+
 ### Turret System
 
-A component-based enemy system with shared behaviour and specialized Classic, Sniper, Bomber, and Penetrator variants.
+Shared turret behaviour with specialized Classic, Sniper, Bomber, and Penetrator variants.
 
-The implementation demonstrates:
-
-- Encapsulation of runtime state and component responsibilities.
-- Inheritance and polymorphism for specialized shooting, projectile, and death behaviour.
+- Inheritance and polymorphism for specialized enemy behaviour.
+- Separate components for detection, shooting, animation, and feedback.
 - Interfaces for damage handling and highlighting.
-- Event-based communication between detection, health, animation, and controller components.
-- ScriptableObjects for turret, projectile, and animation configuration.
+- ScriptableObjects for configuration.
 
-[Explore the turret system and its architecture](Source/TurretSystem/README.md)
+[Explore the turret system](Source/TurretSystem/README.md)
 
-The source selection is provided for code review and requires the full Unity project and its assets to run. To play the game, download the build linked above.
+### Player Combat
+
+A weapon system combining a firearm with multiple firing modes and a sword with combos and an ability.
+
+- Interface-based weapon management and animation-event dispatch.
+- Separate components for attacks, recoil, ammunition, and feedback.
+- Animation-driven attack timing, reload completion, and combo windows.
+- Configurable weapon and ability settings.
+
+[Explore player combat](Source/PlayerCombat/README.md)
+
+### Loot and Pickup UI
+
+World pickups connected to on-screen collection notifications.
+
+- Configurable loot drops and pickup rewards.
+- Grouping of repeated pickups by type.
+- Reusable notification slots with individual display timers.
+- Separation between collection logic and UI presentation.
+
+[Explore loot and pickup UI](Source/LootAndPickupUI/README.md)
+
+These selections are provided for code review. They require the full Unity project and its assets to run. To play the game, download the build linked above.
 
 ## Built With
 
